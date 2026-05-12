@@ -1,0 +1,78 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Campus Robo Navigation</title>
+
+<link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+  <div id="rotateMsg">📱 Please rotate your phone</div>
+
+<div class="heading">
+  <h2> C.V.R.U Campus Robo </h2>
+  <img src="./cvrulogo.png" alt="">
+</div>
+
+<!-- Buttons -->
+<button onclick="goTo('Block-A')">BLOCK - A</button>
+<button onclick="goTo('Block-B')">BLOCK - B</button>
+<button onclick="goTo('Block-C')">BLOCK - C</button>
+<button onclick="goTo('cse')">C.S.E Dept</button>
+<button onclick="goTo('Registrar')">Registrar Chamber</button>
+<button onclick="goTo('admission')">Admission Cell</button>
+<button onclick="goTo('Pro')">Pro VC chamber</button>
+<button onclick="goTo('account')">Account sect</button>
+<button onclick="goTo('Cantine')">Canteen</button>
+<button onclick="goTo('Conference Hall')">Conference Haull</button>
+<button onclick="goTo('uniform')">Uniform Dept</button>
+<button onclick="goTo('NCC')">NCC ground</button>
+<button onclick="goTo('AG')">Agr ground</button>
+<button onclick="goTo('parking')">Parking</button>
+<button onclick="goTo('exam')">Exam Dept</button>
+<button onclick="goTo('play')">Playground</button>
+<button onclick="resetRobo()" style="background-color: transparent; font-size: 20px; position: relative; top: 4px;"> 🔄 </button>
+
+<!-- Campus -->
+<div class="campus">
+     <div class="image"><img src="./collegebackgourng.jpeg" alt=""></div>
+
+  
+    <img id="robo"  src="robot.png" alt="robot">
+ 
+  
+
+  <!-- Departments -->
+  <div class="block cse">C.S.E Dept</div>
+  <div class="block Cantine">Canteen</div>
+  <!-- <div class="block admission">Admission Cell</div> -->
+  <div class="block Pro">Pro VC chamber</div>
+  <div class="block AG">Agr ground</div>
+  <div class="block account">Account sect</div>
+  <div class="block Block-A">BLOCK - A</div>
+  <div class="block Block-B">BLOCK - B</div>
+  <div class="block Block-C">BLOCK - C</div>
+  <div class="block NCC">NCC ground</div>
+  <div class="block admission">Admission <br>Cell</div>
+  <div class="block Conference">Confrence - HAULL</div>
+  <div class="block uniform">Uni Dept</div>
+  <div class="block parking">Parking</div>
+  <div class="block Registrar">Registrar Chamber</div>
+  <div class="block exam">Exam dept</div>
+  <div class="block play">Playground</div>
+
+</div>
+
+<audio id="stepSound" loop>
+  <source src="robot_footsteps.wav" type="audio/wav">
+</audio>
+
+<p id="info">Click a button to move Robo 🤖</p>
+
+
+
+<script src="./script.js"></script>
+</body>
+</html>
