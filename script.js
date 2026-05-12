@@ -81,7 +81,8 @@ function goTo(place){
   "parking": "Parking Area",
   "exam": "Exam Department",
   "play": "Play Ground",
-  "uniform": "Uniform Department"
+  "uniform": "Uniform Department",
+  "mechanical": "Mechanical Workshop"
 };
 
 
@@ -210,6 +211,16 @@ function goTo(place){
       ["10%", "65%"],
       ["10%", "69%"],
       ["3%", "69%"] 
+    ],
+
+    "mechanical" :[
+        ["48%", "41.8%"],
+        ["33%","41.8%"],
+        ["25%", "30%"],
+        ["8%", "22.5%"],
+        ["8%", "15%"],
+        ["8%", "5.5%"],
+        ["3%", "5.5%"]
     ]
 
     
